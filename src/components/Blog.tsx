@@ -8,7 +8,7 @@ const Blog = () => {
 			</h1>
 			<div className=" mt-10 w-full max-sm:space-y-5 px-4 pb-6  grid grid-cols-2 gap-10 pt-10 max-sm:grid-cols-1 text-white">
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r ">
-					<video src={VIDEO1} typeof="mp4" controls></video>
+					<video src={VIDEO1} typeof="mp4" controls className="w-full"></video>
 				</div>
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
 					<h1>Post two</h1>
