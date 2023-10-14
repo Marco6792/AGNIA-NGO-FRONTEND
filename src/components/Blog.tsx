@@ -1,5 +1,5 @@
 import React from "react";
-
+import VIDEO1 from "../assets/VID-20231008-WA0001.mp4"
 const Blog = () => {
 	return (
 		<div className="flex flex-col justify-center items-center pt-10  md:max-w-4xl mx-auto relative">
@@ -8,7 +8,7 @@ const Blog = () => {
 			</h1>
 			<div className=" mt-10 w-full max-sm:space-y-5 px-4 pb-6  grid grid-cols-2 gap-10 pt-10 max-sm:grid-cols-1 text-white">
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r ">
-					<h1>Post one(1)</h1>
+					<video src={VIDEO1} typeof="mp4" controls></video>
 				</div>
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
 					<h1>Post two</h1>
