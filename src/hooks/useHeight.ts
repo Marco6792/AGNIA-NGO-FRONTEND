@@ -7,7 +7,7 @@ const useScrollHeight = (query: Tquery): boolean => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.pageYOffset;
-            console.log(scrollPosition);
+            // console.log(scrollPosition);
             if (scrollPosition > 200) {
                 setMatches(true);
             } else {
