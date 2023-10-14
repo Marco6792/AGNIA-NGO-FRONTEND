@@ -14,7 +14,7 @@ const Blog = () => {
 					<h1>Post two</h1>
 				</div>
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
-					<h1>Post three (3)</h1>
+					<h1>Post three (03)</h1>
 				</div>
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
 					<h1>Post four</h1>
