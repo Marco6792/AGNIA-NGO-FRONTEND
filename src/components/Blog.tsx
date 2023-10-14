@@ -13,7 +13,7 @@ const Blog = () => {
 					<video src={VIDEO2} typeof="mp4" controls className="w-full h-[100%]" title="introduction"></video>
 				</div>
 				<div className="border p-10 max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
-					<h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta delectus, tempore dolorem dolores quibusdam eos ab fugit itaque deserunt eveniet nostrum? Id, voluptate hic. Aliquam, accusantium non? Cum, numquam?</h1>
+					<h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta delectus, tempore dolorem dolores quibusdam eos ab fugit itaque deserunt eveniet nostrum? Id, voluptate hic. Aliquam, accusantium non? Cum, numquan?</h1>
 				</div>
 				<div className="border max-sm:w-full rounded-md z-20 from-slate-300 to-slate-800 bg-gradient-to-r">
 				<p className="underline text-slate-700">article: 2</p>
