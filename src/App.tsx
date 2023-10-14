@@ -10,7 +10,11 @@ import useScrollHeight from "./hooks/useHeight";
 function App() {
 
 	const height = useScrollHeight("100px")
-	console.log({"scroll-height":height});
+	console.log({ "scroll-height": height });
+	
+	const scrollPosition = window.pageYOffset;
+	console.log(scrollPosition);
+	
 	return (
 		<Routes>
 			<Route path="/" element={<Layout />}>

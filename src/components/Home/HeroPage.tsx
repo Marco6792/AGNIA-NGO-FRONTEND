@@ -13,7 +13,7 @@ const HeroPage = () => {
 				praesentium. Facilis amet labore deleniti mollitia porro modi 
 			</p>
       </div>
-      <div className="from-blue-300 to-blue-400 bg-gradient-to-tr p-6 fixed -top-10  max-md:-right-40 opacity-10 h-[300px] w-[470px] rounded-full -rotate-45 md:hidden">
+      <div className="from-blue-300 to-blue-400 bg-gradient-to-tr p-6 fixed -top-10  max-md:-right-40 opacity-10 h-[300px] w-[470px] rounded-full -rotate-45 md:inset-auto md:opacity-5 md:h-[250px] md:w-[400px]">
       </div>
 		</div>
 	);

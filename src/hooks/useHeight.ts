@@ -7,6 +7,7 @@ const useScrollHeight = (query: Tquery): boolean => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.pageYOffset;
+            console.log(scrollPosition);
             if (scrollPosition > 200) {
                 setMatches(true);
             } else {
@@ -18,7 +19,7 @@ const useScrollHeight = (query: Tquery): boolean => {
           return () => window.removeEventListener("scroll", handleScroll);
     }, [matches, query])
 
-    return matches
+    return matches 
 }
 
 export default useScrollHeight

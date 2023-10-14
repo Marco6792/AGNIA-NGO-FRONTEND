@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom"
 import NavBar from "./Home/NavBar"
 import ScrollToTopButton from "./ScrollToTopButton"
 import SocialMediaLinks from "./SocialMediaLinks"
+import Footer from "./Footer"
 
 const Layout = () => {
     return (
@@ -11,6 +12,7 @@ const Layout = () => {
             <ScrollToTopButton />
             <SocialMediaLinks />
             <Outlet />
+            <Footer />
         </React.Fragment>
     )
 }
